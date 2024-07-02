@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personality Test</title>
+	<link rel="icon" href="images/html.svg" type="image/svg+xml">
+	<meta name= "author" content = "Abhilash, Tharun, Sakshi, Riddhi, Dev">
+	<meta property="type" content="website">
+	<meta http-equiv="X-UA-Compatible" content="edge">
+	<!--link to css file-->
+	<link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body onload="hidePopup()">
+	<div class="topnav">      
+		
+		<!--Displaying menu - giving choices to user-->
+		<a href="index.html"><h2>HOME</h2></a> 
+				<a href="aboutus.html"><h2>ABOUT US</h2></a>
+				<a href="Contactus.html"><h2>CONTACT US</h2></a>
+				<a href="login.html"><h2>LOGOUT</h2></a> 
+	</div>
+	<br>
+	<br>
+	<div align='center' id='pop123' class="alert">
+		<span class="closebtn"
+			onclick="this.parentElement.style.display='none';">&times;</span>
+			<!--display popout without selecting and trying to go to next page-->
+		Please answer all the questions.
+	</div>
+	<h2 id="test_status"></h2>
+	<div id="test" align='center'></div> 
+
+	<footer>        
+		 <!--Displaying footer - as deelopers names -->
+		<h2>DEVELOPER'S NAMES : </h2>
+		<div class="names">
+		<div id="boxes">
+			<p>
+				ABHILASH KALISETTI<br>								
+				THARUN <br>							
+				DEV CHOUDHARY<br>
+				</p>
+				</div>
+
+				<div id="boxes">
+				<p>
+					SAKSHI DARJI<br>
+					RIDDHI SINGH<br>
+			</p>
+			</div>
+		</div>
+		
+	</footer>
+	<!--link to js file-->
+	<script src="javascript/main.js"> </script>
+</body>
+</html>
