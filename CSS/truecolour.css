@@ -1,0 +1,161 @@
+body, html {
+    width:100%;
+    margin: auto;
+    padding: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/d2.png');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+   
+}
+
+        h1 {                      /*for the title design*/
+            color: #85123a;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2ecc71;
+        }
+
+        h3 {
+            color: rgb(116, 21, 21);
+            font-weight: bold;
+        }
+
+        h4 {
+            color: #f39c12;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        li {
+            font-weight: 600;
+        }
+
+
+        .orange{
+            color: orange;
+            background-color: #202020;
+            border-radius: 10px;           /*Designing colors title through giving classes names*/
+            max-width: 7%;
+            padding: 5px;
+            text-align: center;
+        }
+        .Blue{
+            color:blue;
+            background-color: #202020;
+            border-radius: 10px;
+            max-width: 5%;
+            padding: 5px;
+            text-align: center;
+        }
+        .gold{
+            color:gold;
+            background-color: #202020;
+            border-radius: 10px;
+            max-width: 5%;
+            padding: 5px;
+            text-align: center;
+        }
+        .green{
+            color:green;
+            background-color: #202020;
+            border-radius: 10px;
+            max-width: 5%;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .names {
+    margin-left: 50px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background: rgb(58, 81, 132)	; 
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.topnav h2 {
+    color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff; /* Text color for the navigation links */
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.topnav a:hover {
+    color:darkgoldenrod; /* Background color on hover */
+ 
+}
+
+
+footer{        /*for the footer design*/
+
+margin-top: 0%;
+padding: 0%;
+width: 100%;
+background-color: #202020;
+box-sizing: border-box;
+min-height: 200px;
+
+}
+
+footer h2 {
+
+padding-left: 80px;
+padding-bottom: none;
+padding-top: 40px;
+color:burlywood;
+margin-bottom: 0%;
+margin-top: 0%;
+
+}
+
+.names {
+margin-left: 50px;
+}
+.Blue, .gold, .green,.orange{
+    margin-left: 10%;
+
+}
+ul, h3{
+    margin-left: 10%; 
+}
+
+#boxes {
+float: left;
+background-color: #202020;
+box-sizing: border-box;
+width: 30%;
+line-height: 1.5em;
+padding-left: 100px;
+padding-bottom: none;
+padding-top: 0%;
+margin-top: 0%;
+margin-bottom: 0%;
+font-weight: bold;
+
+}
+
+#boxes p {
+color: lightslategrey;
+word-spacing: 0.3em;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.1em;
+}

@@ -1,0 +1,158 @@
+body, html {
+    width:100%;
+    margin: auto;
+    padding: auto;
+    background-image: url('../images/BJ.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clear {
+    clear:both;                     /*to break the float*/
+}
+
+
+.topnav p {
+    margin-top: 50px;                  
+    font-size: 2em;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color :#061c2b
+}
+
+.login-form {
+    text-align: center;
+    background: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgb(193, 231, 255);
+}
+
+.topnavbtn {                                 /*Design for the buttons*/
+
+    background: linear-gradient(to left, #3498db, #8e44ad);
+    color : rgb(2, 45, 45);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0%;
+}
+
+.topnavbtn:hover {
+    background-color: #2980b9;
+}
+
+.alert {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+
+.menu {                  /*Design for the main menu on top*/
+    overflow: hidden;
+    width: 100%;
+    background: rgb(58, 81, 132)	; 
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #fff; /* Text color for the navigation links */
+    text-align: center;
+    padding: 10px 15px; /* Adjust padding for a comfortable look */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+        color:darkgoldenrod; /* Background color on hover */
+}
+
+
+footer{             /*Design for the footer*/
+
+    width: 100%;
+	margin-top: 150px;
+    background-color: #202020;
+    box-sizing: border-box;
+    min-height: 180px;
+  
+}
+
+footer h2 {
+   
+    padding-left: 80px;
+    padding-bottom: none;
+    padding-top: 40px;
+    color:burlywood;
+    margin-bottom: 0%;
+
+}
+
+.names {
+    margin-left: 50px;
+}
+
+#boxes {
+    float: left;
+    background-color: #202020;
+    box-sizing: border-box;
+    width: 30%;
+    line-height: 1.5em;
+    padding-left: 100px;
+    padding-bottom: none;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    
+}
+
+#boxes p {
+    color: lightslategrey;
+    word-spacing: 0.3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}

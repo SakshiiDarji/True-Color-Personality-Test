@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="images/html.svg" type="image/svg+xml">
+    <meta name= "author" content = "Abhilash, Tharun, Sakshi, Riddhi, Dev">
+	<meta property="type" content="website">
+	<meta http-equiv="X-UA-Compatible" content="edge">
+    <!-- link to css file-->
+    <link rel="stylesheet" href="CSS/loginstyle.css">
+</head>
+<body>
+    <div class="menu">      
+        <!--Displaying menu - giving choices to user-->
+            	<a href="index.html"><h2>HOME</h2></a> 
+				<a href="aboutus.html"><h2>ABOUT US</h2></a>
+				<a href="Contactus.html"><h2>CONTACT US</h2></a>
+				<a href="login.html"><h2>LOGIN TO START</h2></a> 
+	</div>
+
+    <div class="topnav">
+        <p>Please login to start your True Color Psonality Test.</p>
+
+        <form>
+            <div id="d1" class="alert">
+                <!--you cannot login whithout entering username and password that's why we created popout-->
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                Username or Password cannot be blank.
+            </div>
+
+            <!-- created a login form to play thge game-->
+            <div class="login-form">
+                <input type="text" id="username" placeholder="Enter Username" />
+                <br>
+                <input type="password" id="password" placeholder="Password:" />
+                <br>
+                <button class="topnavbtn" type="button" onclick="generatePassword()">Generate Password</button>
+                <br>
+                <br>
+                <button class="topnavbtn" type="button" onclick="login()">Login Here</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <footer>         <!--Displaying footer - as deelopers names -->
+		<h2>DEVELOPER'S NAMES : </h2>
+		<div class="names">
+		<div id="boxes">
+			<p>
+				ABHILASH KALISETTI<br>								
+				THARUN<br>							
+				DEV CHOUDHARY<br>
+				</p>
+				</div>
+
+				<div id="boxes">
+				<p>
+					SAKSHI DARJI<br>
+					RIDDHI SINGH<br>
+				</p>
+			</div>
+		</div>
+		
+	</footer>
+
+    <script src="javascript/loginmain.js"></script>
+</body>
+</html>

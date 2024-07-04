@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width:100%;
+    margin: auto;
+    padding: auto;
+    background-image: url('../images/bj.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clear {
+    clear:both; 
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    margin: 15px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: purple	; 
+    font-size: 12px;
+	animation: slideIn 1s ease;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+@keyframes slideIn {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff; /* Text color for the navigation links */
+    text-align: center;
+    padding: 10px 15px; /* Adjust padding for a comfortable look */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.topnav a:hover {
+    color:darkgoldenrod; /* Background color on hover */
+ 
+}
+
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 8px 12px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc; /* Background color on button hover */
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    animation: rainbowAnimation 5s infinite;
+}
+
+@keyframes rainbowAnimation {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
+#first {         /*designed each sentence with different colors, that's why wrote first- and second */
+
+    align-content: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(42, 64, 3);
+    padding: 0%;
+}
+
+#second {
+
+    padding: 0%;
+    align-content: center;
+    justify-content: center;
+   color: rgb(70, 22, 48);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer{
+       /*Design for the footer*/
+    width: 100%;
+    margin-top: 200px;
+    background-color: #202020;
+    box-sizing: border-box;
+    min-height: 180px;
+  
+}
+
+footer h2 {
+    padding-left: 80px;
+    padding-bottom: none;
+    padding-top: 10px;
+    color:burlywood;
+    margin-bottom: 0%;
+
+}
+
+.names {
+    margin-left: 50px;
+}
+
+#boxes {
+    float: left;
+    background-color: #202020;
+    box-sizing: border-box;
+    width: 30%;
+    line-height: 1.5em;
+    padding-left: 100px;
+    padding-bottom: none;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: bold;
+    
+}
+
+#boxes p {
+    color: lightslategrey;
+    word-spacing: 0.3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
